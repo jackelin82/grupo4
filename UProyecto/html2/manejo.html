@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Lógica - Primaria</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Manejo de arreglos</h1>
+        <li><button id="T2" onclick="window.history.back();">Volver</button></li>
+    </header>
+    <div class="secuencia">
+        <h2>Arreglos</h2>
+        <div class="sec" id="sec">
+            Has click en el boton de iniciar
+        </div> 
+    </div>
+    <h2 class="fe">Ingresar los numeros separados con una coma (,)</h2>
+    <div class="Con1">
+        
+<input type="text" id="inputArray" placeholder="Ingresa números separados por comas, ej. 1,2,3">
+        <select id="operationType">
+            <option value="primes">Números Primos</option>
+            <option value="perfects">Números Perfectos</option>
+            <option value="average">Promedio</option>
+        </select>
+    </div>
+    <button class="init" id="init4" type="button" onclick="performOperation()">Iniciar</button>
+    <script src="/js/universidad/manejo.js"></script>
+</body>
+</html>

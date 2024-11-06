@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Plataforma de Lógica</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Plataforma de Lógica de Programación</h1>
+        <p>Aprende lógica de programación de forma interactiva y divertida.</p>
+        <nav>
+            <a href="about.html">Programadores</a>
+            <a href="contact.html">Contacto</a>
+            <select class="desp" id="opciones" name="opciones" onchange="redirigirPagina()">
+                <option value="">Selecciona un Nivel</option>
+                <option value="/html/primaria.html">Primaria</option>
+                <option value="/html/secundaria.html">Secundaria</option>
+                <option value="/html/universidad.html">Universidad</option>
+            </select>
+        </nav>
+    </header>
+    <footer>
+        <p id="TEXTS">Elige tu nivel estudiantil</p>
+        <div class="niveles">
+            <div class="level">
+             <h1 class="p">Primaria</h1>
+            <h1 class="S">Secundaria</h1>
+            <h1 class="u">Universidad</h1>   
+            </div>
+            <div class="niveles1">
+                <a href="/html/primaria.html"><img class="Primaria" src="/img/GU Educacion_Primaria.jpg" alt=""></a>
+                <a href="html/secundaria.html"><img class="Secundaria" src="/img/de-que-trata-educacion-secundaria-1200x628.jpg"></a>
+                <a href="html/universidad.html"><img class="Universidad" src="/img/images (1).jpeg"></a>
+            </div>                
+        </div> 
+    </footer>    
+    <script src="js/main.js"></script>
+</body>
+</html>

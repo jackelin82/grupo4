@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*stilo todo*/
+body { 
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffffff, #ddecec); 
+    max-height: 1px;
+}
+.body1{ 
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ffffff, #ddecec); 
+    max-height: 1px;
+
+}
+.body3{ 
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffffff, #ddecec); 
+    max-height: 1px;
+
+}
+/*estilo fondo*/
+header {
+    
+    text-align: center;
+    padding: 30px;
+    color: #ffffff;
+    background:  #001f3d; 
+}
+
+
+/*estilo de la barra*/
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*stilo de los niveles*/
+.niveles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    position: relative;
+
+}
+.niveles1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+    position: relative;
+    right: 400px;
+    bottom: 140px;
+}
+.level{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 200px;
+    left: 600px;
+    margin-left: 100px;
+}
+.p{
+    position: relative;
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    background: #001f3d;  
+    right: 160px;
+    border-radius: 10px;
+    color: white;
+}
+.S{
+    position: relative;
+    width: 220px;
+    text-align: center;
+    height: 50px;
+    background:  #001f3d;  
+    left: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.u{
+    position: relative;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    background:  #001f3d;  
+    left: 190px;
+    border-radius: 10px;
+    color: white;
+}
+.niveles a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #ffd900b2; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.niveles1 a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #bfdcf165; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.niveles a:hover {
+    background-color: #8fd7e8; 
+}
+
+/*estilode la palabra arriba delos niveles*/
+#TEXTS {
+    font-size: 1.2em;
+    color: #565961; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    
+}
+
+
+/* Estilos para los ejercicios dentro de los niveles */
+.ejercicio {
+    border: 2px solid #ccc; 
+    border-radius: 43px; 
+    padding: 13px; 
+    margin: 50px 0; 
+    background-color: #f9f9f9; 
+}
+
+.ejercicio p {
+    font-size: 15px; 
+    margin-bottom: 10px; 
+}
+
+h2 {
+    color:white;
+    margin-bottom: -35px; 
+    font-size: 24px; 
+}
+.ejercicio button {
+    margin-right: 12px; 
+    padding: 4px 17px; 
+    border: none; 
+    border-radius: 9px; 
+    cursor: pointer; 
+    background-color: #aecaeb; 
+    color: white; 
+}
+
+.ejercicio button:hover {
+    background-color: #03a0e3; 
+}
+
+
+
+/*boton regresar*/
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 300px;
+    width: 100px;
+}
+
+
+button:hover {
+    background-color: #c4cfe9; 
+}
+
+
+/*regresar2*/
+button#T2 {
+    background-color: transparent; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 1px 38px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;  
+    font-family: Verdana, Geneva, sans-serif;
+    margin: -7px ; 
+}
+
+button#T2:hover {
+    background-color: #aab8cf; 
+}
+
+.Primaria{
+    width: 300px;
+    position: relative;
+    
+}
+.Secundaria{
+    width: 400px;
+    position: relative;
+    
+}
+.Universidad{
+    width: 320px;
+    position: relative;
+    
+}
+li{
+   list-style: none;
+}
+.secuencia{
+    background:  #001f3d;
+    text-align: center;
+    width: 700px;
+    height: 450px;
+    position: relative;
+    left: 100px;
+}
+.secuencia1{
+    background:  #001f3d;
+    text-align: center;
+    width: 700px;
+    height: 450px;
+    max-height:auto ;
+    position: relative;
+    left: 100px;
+}
+.sec{
+    position: relative;
+    left: 10px;
+    top: 150px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 680px;
+}
+.sec1{
+    position: relative;
+    left: 10px;
+    top: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 680px;
+}
+.init{
+    position: relative;
+    bottom: 540px;
+    left: 200px;
+    background-color: #add2da; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    margin: 100px auto;
+    border-radius: 300px; 
+    display: block; 
+    width: 200px; 
+}
+.textbo{
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+
+.textbo1{
+    position: relative;
+    left: 600px;
+}
+#T2{
+    background-color: #add2da; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    margin: 100px auto;
+    border-radius: 300px; 
+    display: block; 
+    width: 200px;  
+}
+#resultado{
+    position: relative;
+    left: 800px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 500px;
+}
+
+.bo{
+   position: relative;
+   left: 900px;
+   bottom: 500px;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+td {
+    border: 2px solid #000;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+#numero{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+    background-color:#add2da;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#init2{
+    position: relative;
+    bottom: 440px;
+    left: 220px;
+    background-color: #add2da; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    margin: 100px auto;
+    border-radius: 300px; 
+    display: block; 
+    width: 200px; 
+}
+
+.ta{
+    position: relative;
+    left: 840px;
+    bottom: 460px;
+}
+.fibonacci-item {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    animation: fadeIn 0.4s ease;
+}
+.fibonacci-item:nth-child(odd) {
+    background-color: #61dafb;
+    color: #282c34;
+}
+.fibonacci-item:nth-child(even) {
+    background-color: #444a52;
+}
+/* Animación de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+textarea {
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    position: relative;
+    top: 5px;
+}
+.calculadora {
+    width: 320px;
+    padding: 20px;
+    background-color: #aab8cf;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+#display {
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.operador {
+    background-color: #4CAF50;
+    color: #fff;
+}
+.igual {
+    background-color: #2196F3;
+    color: #fff;
+}
+.clear {
+    background-color: #f44336;
+    color: #fff;
+}
+.boton {
+    width: 23%;
+    height: 50px;
+    font-size: 20px;
+    margin: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Con{
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+}
+#init3{
+    position: relative;
+    bottom: 540px;
+    left: 370px;
+    background-color: #add2da; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    margin: 100px auto;
+    border-radius: 300px; 
+    display: block; 
+    width: 200px; 
+}
+input[type="text"] {
+        width: 200px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+.fe{
+    position: relative;
+    left: 830px;
+    bottom: 460px;
+    font-size: 20px;
+}
+.Con1{
+    position: relative;
+    left: 900px;
+    bottom: 420px;
+}
+#init4{
+    position: relative;
+    bottom: 510px;
+    left: 340px;
+    background-color: #add2da; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    margin: 100px auto;
+    border-radius: 300px; 
+    display: block; 
+    width: 200px; 
+}
+#init5{
+    position: relative;
+    bottom: 470px;
+    left: 300px;
+    background-color: #add2da; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+    margin: 100px auto;
+    border-radius: 300px; 
+    display: block; 
+    width: 200px; 
+}
+select{
+    width: 200px;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.resultado{
+    position: relative;
+    bottom: 90px;
+}
+.desp{
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    
+}
+.desp option{
+   color: black;
+}
+.desp:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    cursor: pointer;
+}
+select.desp {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.Programadores{
+    position: relative;
+    left: 400px;
+    font-size: 40px;
+}
+.list{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/012/014/296/non_2x/star-cartoon-icon-free-vector.jpg");
+    background-size: 30px 30px; /* Tamaño de la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: 0 5px; /* Ajustar la posición de la imagen */
+    padding-left: 30px; /* Espacio para el texto */
+    margin-top: 50px;
+}
+#inputNumber{
+    position: relative;
+    bottom: 20px;
+    width: 200px;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+}
+.sec2{
+    position: relative;
+    left: 10px;
+    top: 200px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 680px;
+}
+.fibo{
+    position: relative;
+    left: 840px;
+    bottom: 480px;
+}

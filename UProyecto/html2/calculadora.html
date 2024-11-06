@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Lógica - Primaria</title>
+    <link rel="stylesheet" href="/css/styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <li><button id="T2" onclick="window.history.back();">Volver</button></li>
+    </header>
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+        <div>
+            
+             <button class="boton operador" onclick="appendOperator('*')">×</button>
+            <button class="boton operador" onclick="appendOperator('-')">-</button>
+            <button class="boton operador" onclick="appendOperator('+')">+</button>
+        </div>
+        <div>
+            <button class="boton operador" onclick="appendOperator('/')">÷</button>
+            
+            
+        </div>
+        <div>
+            <button class="boton" onclick="appendNumber('7')">7</button>
+            <button class="boton" onclick="appendNumber('8')">8</button>
+            <button class="boton" onclick="appendNumber('9')">9</button>
+            <button class="boton" onclick="appendNumber('4')">4</button>
+            <button class="boton" onclick="appendNumber('5')">5</button>
+            <button class="boton" onclick="appendNumber('6')">6</button>
+            <button class="boton" onclick="appendNumber('1')">1</button>
+            <button class="boton" onclick="appendNumber('2')">2</button>
+            <button class="boton" onclick="appendNumber('3')">3</button>
+           
+        </div>
+        <div>
+            <button class="boton" onclick="appendNumber('0')">0</button>
+            <button class="boton" onclick="appendOperator('.')">.</button>
+            <button class="boton clear" onclick="clearDisplay()">C</button>
+            
+        </div>
+        <div>
+            <button class="boton igual" style="width: 100%;" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="/js/universidad/calculadora.js"></script>
+</body>
+</html>
